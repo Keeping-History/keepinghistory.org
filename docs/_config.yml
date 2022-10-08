@@ -1,0 +1,28 @@
+title: Keeping History
+logo: /assets/img/logo-small-white.svg
+email: info@keepinghistory.org
+email_description: Contact Us
+email_icon:  <i class="fa-solid fa-envelope"></i>
+description: Keeping History is an open source initiative to save, categorize and analyze history through multimedia.
+show_downloads: false
+google_analytics: G-759BNBG563
+color-scheme: auto
+favicon: true
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-email-protect
+  - jekyll-minifier
+  - jemoji
+
+# You can find fonts from https://iconify.design or https://fontawesome.com. Below is just an example illustrating how to use custom icons
+sidebar:
+  - name: GitHub
+    icon: <i class="fa-brands fa-github"></i>
+    link: https://github.com/Keeping-History
+
+# https://github.com/github/pages-gem/issues/399#issuecomment-301827749
+# When running locally, we run into the following error —
+# GitHub Metadata: No GitHub API authentication could be found. Some fields may be missing or have incorrect data.
+# adding this avoids it
+github: [metadata]

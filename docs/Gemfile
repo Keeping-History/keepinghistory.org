@@ -1,0 +1,16 @@
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gemspec
+gem "github-pages", "~> 227", group: :jekyll_plugins
+gem 'webrick'
+
+group :jekyll_plugins do
+    gem 'jekyll'
+    gem 'jekyll-seo-tag'
+    gem 'jekyll-sitemap'
+    gem 'jekyll-email-protect'
+    gem 'jekyll-minifier'
+    gem 'jemoji'
+end
